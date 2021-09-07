@@ -1,0 +1,59 @@
+/*FLEXIBLE STYLES*/
+
+.f-col{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.f-col-c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.f-col-ca{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.f-col-cb{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.f-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.f-row-c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.f-row-ca{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.f-row-cb{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/* END FLEXIBLE STYLES*/
